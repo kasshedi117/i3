@@ -97,6 +97,8 @@ mode "resize" {
 bar {
     status_command          i3blocks -c ~/.config/i3/i3blocks/i3blocks.conf 
     position                top 
+    bindsym button4 nop
+    bindsym button5 nop
 }
 
 # ------------------------------------------
